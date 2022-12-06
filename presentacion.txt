@@ -1,0 +1,107 @@
+<!--Presentación-->
+    <div class="presentacion">
+        <div class="img-presentacion">
+            <img src="img/catering-vertical.jpg" alt="presentacion">
+        </div>
+        <div class="presentacion-info">
+            <div class="presentacion-texto">
+                <h3>LOLA C&E</h3>
+                <h4>Sobre Nosotros</h4>
+                <p> Realizamos Servicios de Catering y Organización de Eventos para fiestas familiares y eventos
+                    Empresariales.
+                    Somos profesionales en el rubro y contamos con logística y equipamientos propios para prestar
+                    nuestros servicios en cualquier parte de Corrientes y Chaco.
+                    Además brindamos servicios de barras de tragos para nuestros eventos y Barras Móviles.</p>
+            </div>
+            <div class="presentacion-btn">
+                <a href="about.html"> +Info </a>
+            </div>
+        </div>
+    </div>
+
+
+/******Presentacion 
+presentacion{
+    height: 420px;
+    width: 50%;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    box-shadow: 0px 14px 32px 0px rgba(149, 149, 169, 0.5) ;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: rgb(139, 190, 194) ;
+
+}
+.presentacion .img-presentacion{
+    width: 50%;
+    align-self: center;
+    
+}
+.presentacion .img-presentacion img{
+    width: 80%;
+    vertical-align: top;
+    margin-left: 30px;
+    
+    
+}
+.presentacion-info{
+    width: 50%;
+    border-radius: 0 7px 10px 7px;
+    background: #fff;
+
+}
+.presentacion-texto{
+    width: 100%;
+   
+}
+.presentacion-texto h3{
+    margin-left: 20px;
+    padding-top: 20px;
+    font-size: 34px;
+    color:rgb(121, 154, 183) ;
+}
+.presentacion-texto h3, .presentacion-btn{
+    font-family: 'Roboto', sans-serif ;
+
+}
+.presentacion-texto h4{
+    margin: 05px  20px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif ;
+    text-transform: uppercase;
+    color:rgb(139, 190, 194);
+    letter-spacing: .2em;
+}
+.presentacion-texto p{
+    height: 100px;
+    margin-left: 38px;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif ;
+    color: #8d8d8d;
+    line-height: 1.7em;
+    padding: 5px;
+}
+.presentacion-btn{
+    height: 50px;
+    margin-top: 160px;
+    display: flex;
+    justify-content: center;
+
+}
+.presentacion-btn a{
+    height: 50px;
+    width: 120px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 60px;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: #fff;
+    background: #DB6F74;
+    cursor:pointer;
+    text-decoration: none;
+    text-align: center;
+}
